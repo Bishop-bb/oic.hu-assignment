@@ -175,11 +175,13 @@
 }
 
 #last #d3 img{
-    width: 100%
+    width: 100%;
+    height: 250px;
 }
 #last #d3{
     width: 30%;
     align-self: center;
+    height: 250px;
 }
 
 #last span{
@@ -209,13 +211,16 @@
 @media (max-width: 700px) {
     #last #d1{
         width: 100%;
-        flex-grow: ;
+        
     }
     #last #d2{
         width: 100%
     }
     #last #d3{
         width: 100%;
+    }
+    #d2{
+        margin-top: 30px;
     }
     
 #last{
@@ -243,6 +248,7 @@
     
 #d3 img{
     margin-left: 35px;
+    height: 350px;
 }
 }
 #d3{
@@ -644,6 +650,100 @@
     
 }
 
-@media (max-width: 375px) {
 
+
+
+
+
+/* CSS FOR WHY DIGITAL */
+#why-img img{
+    width: 100%;
+    height: 350px;
+}
+
+#dig{
+    display: flex;
+    margin-top: 60px;
+    padding: 0 30px;
+    justify-content: space-between;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#why-dig{
+    width: 50%;
+}
+#why-img{
+    width: 40%;
+    align-self: center;
+}
+#why-dig h1{
+    font-size: 30px;
+}
+#why-dig p{
+    padding-top: 25px;
+}
+
+
+
+/* MEDIA QUERY */
+@media (max-width: 850px) {
+    #dig{
+        flex-direction: column;
+    }
+    #why-dig{
+        align-self: center;
+        width: 80%;
+        text-align: justify;
+    }
+    #why-dig h1{
+        text-align: center;
+    }
+
+    #why-img{
+        margin-top: 40px;
+        width: 60%
+    }
+}
+@media (max-width: 670px) {
+    #why-img img{
+        width: 100%;
+        height: 300px;
+    }
+}
+@media (max-width: 500px) {
+    #why-dig h1{
+        font-size: 25px;
+    }
+    #why-img img{
+        width: 100%;
+        height: 225px;
+    }
+    
+    #why-img{
+        margin-top: 40px;
+        width: 70%
+    }
+}
+
+
+
+/* CSS FOR TECH */
+#tech{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    
+    margin-top: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#tech .tech{
+    padding: 15px;
+}
+.tech h1{
+    font-size: 25px;
+}
+#tt h1{
+    font-size: 35px;
 }
